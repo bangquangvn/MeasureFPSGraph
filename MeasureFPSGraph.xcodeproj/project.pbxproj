@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C010DEF31D00463A00253025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C010DEF21D00463A00253025 /* main.m */; };
+		C010DEF61D00463A00253025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C010DEF51D00463A00253025 /* AppDelegate.m */; };
+		C010DEF91D00463A00253025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C010DEF81D00463A00253025 /* ViewController.m */; };
+		C010DEFC1D00463A00253025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C010DEFA1D00463A00253025 /* Main.storyboard */; };
+		C010DEFE1D00463A00253025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C010DEFD1D00463A00253025 /* Assets.xcassets */; };
+		C010DF011D00463A00253025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C010DEFF1D00463A00253025 /* LaunchScreen.storyboard */; };
+		C010DF0E1D00472E00253025 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C010DF0D1D00472E00253025 /* TestTableViewController.m */; };
+		C010DF111D00482100253025 /* BadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C010DF101D00482100253025 /* BadCell.m */; };
+		C0265D201D0127FE00A1CE88 /* FPSGraphViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0265D1D1D0127FE00A1CE88 /* FPSGraphViewController.mm */; };
+		C0265D211D0127FE00A1CE88 /* RRFPSBar.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0265D1F1D0127FE00A1CE88 /* RRFPSBar.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C010DEEE1D00463A00253025 /* MeasureFPSGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeasureFPSGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C010DEF21D00463A00253025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C010DEF41D00463A00253025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C010DEF51D00463A00253025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C010DEF71D00463A00253025 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C010DEF81D00463A00253025 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C010DEFB1D00463A00253025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C010DEFD1D00463A00253025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C010DF001D00463A00253025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C010DF021D00463A00253025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C010DF0C1D00472E00253025 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		C010DF0D1D00472E00253025 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		C010DF0F1D00482100253025 /* BadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadCell.h; sourceTree = "<group>"; };
+		C010DF101D00482100253025 /* BadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadCell.m; sourceTree = "<group>"; };
+		C0265D1C1D0127FE00A1CE88 /* FPSGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSGraphViewController.h; sourceTree = "<group>"; };
+		C0265D1D1D0127FE00A1CE88 /* FPSGraphViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FPSGraphViewController.mm; sourceTree = "<group>"; };
+		C0265D1E1D0127FE00A1CE88 /* RRFPSBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRFPSBar.h; sourceTree = "<group>"; };
+		C0265D1F1D0127FE00A1CE88 /* RRFPSBar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RRFPSBar.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C010DEEB1D00463A00253025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C010DEE51D00463900253025 = {
+			isa = PBXGroup;
+			children = (
+				C010DEF01D00463A00253025 /* MeasureFPSGraph */,
+				C010DEEF1D00463A00253025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C010DEEF1D00463A00253025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C010DEEE1D00463A00253025 /* MeasureFPSGraph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C010DEF01D00463A00253025 /* MeasureFPSGraph */ = {
+			isa = PBXGroup;
+			children = (
+				C0265D1B1D0127FE00A1CE88 /* MeasureFPSGraph */,
+				C010DEF41D00463A00253025 /* AppDelegate.h */,
+				C010DEF51D00463A00253025 /* AppDelegate.m */,
+				C010DEF71D00463A00253025 /* ViewController.h */,
+				C010DEF81D00463A00253025 /* ViewController.m */,
+				C010DF0C1D00472E00253025 /* TestTableViewController.h */,
+				C010DF0D1D00472E00253025 /* TestTableViewController.m */,
+				C010DF0F1D00482100253025 /* BadCell.h */,
+				C010DF101D00482100253025 /* BadCell.m */,
+				C010DEFA1D00463A00253025 /* Main.storyboard */,
+				C010DEFD1D00463A00253025 /* Assets.xcassets */,
+				C010DEFF1D00463A00253025 /* LaunchScreen.storyboard */,
+				C010DF021D00463A00253025 /* Info.plist */,
+				C010DEF11D00463A00253025 /* Supporting Files */,
+			);
+			path = MeasureFPSGraph;
+			sourceTree = "<group>";
+		};
+		C010DEF11D00463A00253025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C010DEF21D00463A00253025 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0265D1B1D0127FE00A1CE88 /* MeasureFPSGraph */ = {
+			isa = PBXGroup;
+			children = (
+				C0265D1C1D0127FE00A1CE88 /* FPSGraphViewController.h */,
+				C0265D1D1D0127FE00A1CE88 /* FPSGraphViewController.mm */,
+				C0265D1E1D0127FE00A1CE88 /* RRFPSBar.h */,
+				C0265D1F1D0127FE00A1CE88 /* RRFPSBar.mm */,
+			);
+			path = MeasureFPSGraph;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C010DEED1D00463A00253025 /* MeasureFPSGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C010DF051D00463A00253025 /* Build configuration list for PBXNativeTarget "MeasureFPSGraph" */;
+			buildPhases = (
+				C010DEEA1D00463A00253025 /* Sources */,
+				C010DEEB1D00463A00253025 /* Frameworks */,
+				C010DEEC1D00463A00253025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeasureFPSGraph;
+			productName = MeasureFPSGraph;
+			productReference = C010DEEE1D00463A00253025 /* MeasureFPSGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C010DEE61D00463900253025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "trongbangvp@gmail.com";
+				TargetAttributes = {
+					C010DEED1D00463A00253025 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C010DEE91D00463900253025 /* Build configuration list for PBXProject "MeasureFPSGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C010DEE51D00463900253025;
+			productRefGroup = C010DEEF1D00463A00253025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C010DEED1D00463A00253025 /* MeasureFPSGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C010DEEC1D00463A00253025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C010DF011D00463A00253025 /* LaunchScreen.storyboard in Resources */,
+				C010DEFE1D00463A00253025 /* Assets.xcassets in Resources */,
+				C010DEFC1D00463A00253025 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C010DEEA1D00463A00253025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C010DEF91D00463A00253025 /* ViewController.m in Sources */,
+				C0265D211D0127FE00A1CE88 /* RRFPSBar.mm in Sources */,
+				C010DF111D00482100253025 /* BadCell.m in Sources */,
+				C010DEF61D00463A00253025 /* AppDelegate.m in Sources */,
+				C010DF0E1D00472E00253025 /* TestTableViewController.m in Sources */,
+				C010DEF31D00463A00253025 /* main.m in Sources */,
+				C0265D201D0127FE00A1CE88 /* FPSGraphViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C010DEFA1D00463A00253025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C010DEFB1D00463A00253025 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C010DEFF1D00463A00253025 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C010DF001D00463A00253025 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C010DF031D00463A00253025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C010DF041D00463A00253025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C010DF061D00463A00253025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeasureFPSGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bigbang.MeasureFPSGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C010DF071D00463A00253025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeasureFPSGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bigbang.MeasureFPSGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C010DEE91D00463900253025 /* Build configuration list for PBXProject "MeasureFPSGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C010DF031D00463A00253025 /* Debug */,
+				C010DF041D00463A00253025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C010DF051D00463A00253025 /* Build configuration list for PBXNativeTarget "MeasureFPSGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C010DF061D00463A00253025 /* Debug */,
+				C010DF071D00463A00253025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C010DEE61D00463900253025 /* Project object */;
+}
